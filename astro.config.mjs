@@ -7,6 +7,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'GraphRAG',
+			logo: {
+				src: './src/assets/images/graphrag-logo.svg'
+			},
 			social: {
 				github: 'https://github.com/graphrag/',
 				discord: 'https://discord.gg/graphrag'
