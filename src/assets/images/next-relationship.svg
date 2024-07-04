@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 291.83316133150606 131.52129695651456" width="291.83316133150606" height="131.52129695651456">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+      @font-face {
+        font-family: "Assistant";
+        src: url("https://excalidraw.com/Assistant-Regular.woff2");
+      }
+    </style>
+    
+  </defs>
+  <g stroke-linecap="round" transform="translate(10 32.02903282722764) rotate(0 108.0362564266236 37.67370157922551)"><path d="M-1.39 -0.85 L217.92 -0.54 L215.26 75.78 L0.16 77" stroke="none" stroke-width="0" fill="#ffd8a8"></path><path d="M0 0 C76.89 -0.33, 153.64 0.38, 216.07 0 M0 0 C55.77 -2.47, 111.76 -1.81, 216.07 0 M216.07 0 C216.63 24.34, 216.89 51.03, 216.07 75.35 M216.07 0 C214.83 23.18, 215.58 45.69, 216.07 75.35 M216.07 75.35 C171.44 75.56, 128.92 76.35, 0 75.35 M216.07 75.35 C131.27 76.49, 47.06 77.6, 0 75.35 M0 75.35 C0.74 58.26, 1.52 40.15, 0 0 M0 75.35 C-0.29 50.98, -0.12 27.72, 0 0" stroke="#1e1e1e" stroke-width="1" fill="none"></path></g><g transform="translate(47.15504609947516 40.669790070169256) rotate(0 70.88121032714844 29.03294433628389)"><text x="70.88121032714844" y="46.72489479120681" font-family="Cascadia, Segoe UI Emoji" font-size="48.38824056047307px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">:next</text></g><g stroke-linecap="round"><g transform="translate(219.10243179346662 121.52129695651456) rotate(0 31.36536476901972 -55.76064847825728)" fill-rule="evenodd"><path d="M-0.81 0.43 L62.89 -54.11 L1.59 -111.14 L1.63 1.56" stroke="none" stroke-width="0" fill="#ffd8a8" fill-rule="evenodd"></path><path d="M0 0 C17.82 -18.16, 39.18 -34.25, 62.73 -55.76 M0 0 C13.16 -10.39, 25.78 -22.18, 62.73 -55.76 M62.73 -55.76 C49.15 -69.87, 36.75 -81.61, 0 -111.52 M62.73 -55.76 C43.78 -71.55, 27.16 -88.96, 0 -111.52 M0 -111.52 C1.35 -80.19, 1.39 -49.45, 0 0 M0 -111.52 C-1.19 -86.59, -0.77 -59.84, 0 0 M0 0 C0 0, 0 0, 0 0 M0 0 C0 0, 0 0, 0 0" stroke="#1e1e1e" stroke-width="1" fill="none"></path></g></g><mask></mask></svg>
