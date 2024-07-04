@@ -1,14 +1,14 @@
 ---
-title: GraphRAG Design Patterns
-description: RAG with a knowledge graph.
+title: GraphRAG with a Knowledge Graph
+description: Design patterns for improving GenAI applications with a graph.
 template: splash
 hero:
-  tagline: RAG with a Knowledge Graph ==> GraphRAG!
+  tagline: Connect the dots for better answers 
   image:
-    file: ../../assets/images/graphrag-diagram.svg
+    file: ../../assets/images/graph-trio.svg
   actions:
     - text: What is GraphRAG?
-      link: /guides/intro/
+      link: /guides/intro
       icon: right-arrow
       variant: primary
     - text: Jump to GraphRAG code repositories
@@ -16,19 +16,19 @@ hero:
       icon: external
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
 <CardGrid>
-	<Card title="Guides" icon="open-book">
-		Get started by learning key concepts and 
-	</Card>
-	<Card title="GraphRAG Access Patterns" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Knowledge Graph Models" icon="puzzle">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
-	<Card title="Knowledge Graph Construction" icon="pen">
-		Start small and iterate. Knowledge graphs grow with you.
-	</Card>
+	<LinkCard title="Guides" icon="open-book" href="/guides/intro">
+		Get started with key concepts and how to apply them.
+	</LinkCard>
+	<LinkCard title="GraphRAG Retrieval Patterns" icon="puzzle" href="/reference/graphrag/search">
+		Composeable information retrieval. 
+	</LinkCard>
+	<LinkCard title="Knowledge Graph Patterns" icon="puzzle" href="/reference/knowledge-graph">
+		Collect, connect, and enhance. Repeat.
+	</LinkCard>
+	<LinkCard title="Foundational Research" icon="pen" href="/research">
+		Research papers about GraphRAG, knowledge graphs, and graph data science.
+	</LinkCard>
 </CardGrid>

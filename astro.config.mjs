@@ -26,16 +26,12 @@ export default defineConfig({
 					label: 'Reference',
 					items: [
 						{ 
-							label: 'Access Patterns', 
+							label: 'Retrieval Patterns', 
 							autogenerate: { directory: 'reference/graphrag' },
 						},
 						{ 
-							label: 'Data Models', 
+							label: 'Graph Patterns', 
 							autogenerate: { directory: 'reference/knowledge-graph' },
-						},
-						{ 
-							label: 'Construction', 
-							autogenerate: { directory: 'reference/construction' },
 						}
 					]
 				},
