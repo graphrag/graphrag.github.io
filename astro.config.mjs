@@ -14,11 +14,14 @@ export default defineConfig({
 				github: 'https://github.com/graphrag/',
 				discord: 'https://discord.gg/graphrag'
 			},
+			editLink: {
+        baseUrl: 'https://github.com/graphrag/graphrag.github.io/edit/main/',
+      },
 			sidebar: [
 				{
 					label: 'Concepts',
 					items: [
-						{ label: 'Intro to GraphRAG', link: '/explanation/intro/' },
+						{ label: 'Intro to GraphRAG', link: '/explanation/intro-to-graphrag/' },
 					],
 				},
 				{
