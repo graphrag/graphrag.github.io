@@ -21,7 +21,7 @@ that has been split into multiple texts.
 (:Text { text::string, textEmbedding::float[], source::string? } )
 ```
 
-Text nodes contain original source text along with an embedding. They may also have additional
+`Text` nodes contain original source text along with an embedding. They may also have additional
 metadata like a source reference.
 
 ### Relationships
@@ -29,11 +29,10 @@ metadata like a source reference.
 ![Next Relationship](../../../../assets/images/next-relationship.svg)
 
 ```
-()=[:NEXT]=>()
+(1)=[:NEXT]=>(1)
 ```
 
-Reference pages are ideal for outlining how things work in terse and clear terms.
-Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what you're documenting.
+`NEXT` relationships form a linked list.
 
 
 ## See also
