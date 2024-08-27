@@ -16,10 +16,22 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Concepts',
+					items: [
+						{ label: 'Intro to GraphRAG', link: '/explanation/intro/' },
+					],
+				},
+				{
+					label: 'Tutorials',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Intro to GraphRAG', link: '/guides/intro/' },
+						{ label: 'Chat with a PDF', link: '/tutorials/chat-with-pdf/' },
+					],
+				},
+				{
+					label: 'How-to Guides',
+					items: [
+						{ label: 'Chunking', link: '/guides/chunking/' },
 					],
 				},
 				{
@@ -30,7 +42,11 @@ export default defineConfig({
 							autogenerate: { directory: 'reference/graphrag' },
 						},
 						{ 
-							label: 'Graph Patterns', 
+							label: 'Data Preparation', 
+							autogenerate: { directory: 'reference/preparation' },
+						},
+						{ 
+							label: 'Graph Shapes', 
 							autogenerate: { directory: 'reference/knowledge-graph' },
 						}
 					]

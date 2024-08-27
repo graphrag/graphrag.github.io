@@ -1,0 +1,86 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "3MMtvnlqtdgj1Cnckb_s-",
+      "type": "rectangle",
+      "x": 440,
+      "y": 255,
+      "width": 494,
+      "height": 200,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1812761710,
+      "version": 50,
+      "versionNonce": 1925151534,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "q_Og5WG56EY8BmiTtfJOO"
+        }
+      ],
+      "updated": 1724761641841,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "q_Og5WG56EY8BmiTtfJOO",
+      "type": "text",
+      "x": 598.6600036621094,
+      "y": 342.5,
+      "width": 176.67999267578125,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a1",
+      "roundness": null,
+      "seed": 45417714,
+      "version": 21,
+      "versionNonce": 210700722,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1724761646797,
+      "link": null,
+      "locked": false,
+      "text": "Diagram goes here",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "3MMtvnlqtdgj1Cnckb_s-",
+      "originalText": "Diagram goes here",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
