@@ -54,6 +54,19 @@ export default defineConfig({
 						}
 					]
 				},
+				{
+					label: 'Appendices',
+					items: [
+						{ 
+							label: 'Research', 
+							link: '/appendices/research',
+						},
+						{ 
+							label: 'Terminology', 
+							link: '/appendices/terminology',
+						},
+					]
+				}
 			],
 		}),
 	],
