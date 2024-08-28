@@ -4,7 +4,11 @@ GraphRAG is a collection of RAG access patterns which target different
 layers of a knowledge graph.
 
 
+
+
 ## Contributing
+
+![Documentation Architecture](https://github.com/graphrag/graphrag.github.io/blob/main/src/assets/images/documentation-architecture.png)
 
 The documentation is structured in accordance with [Diátaxis principles](https://diataxis.fr/).
 
@@ -16,22 +20,34 @@ The documentation is structured in accordance with [Diátaxis principles](https:
 
 Consider this priority order of contribution:
 
-1. Everything gets a glossary entry in `/src/content/docs/appendices/glossary.mdx`
+1. Glossary - everything gets a glossary entry 
   - terse definitions of terminology and names
   - reference citations and attribution where appropriate
   - for example, define "vector embedding"
-2. Some glossary entries are expanded on with reference material under `/src/content/docs/reference`
+  - add the entry to `/src/content/docs/appendices/glossary.mdx`
+2. Reference - some glossary entries are expanded on with reference material 
   - describe *what* something is
   - provide an illustration
   - reference related reference material :) 
-  - for example, show what a vector embedding is
-3. Some reference material gets a how-to guide
+  - for example, describe what a vector embedding is
+  - add a page under `/src/content/docs/reference`
+  - use the template `/src/content/docs/reference/template.md`
+3. Guide - some reference material gets a how-to guide
   - process-oriented, *how* to achieve a specific goal
   - try to be implementation independent
   - reference relevant reference material
   - for example, how to perform vector similarity search
-4. Some how-to guides can be combined into tutorials
+  - add a page under `/src/content/docs/guides`
+  - use the template `/src/content/docs/guides/template.md`
+4. Tutorial - some how-to guides can be combined into tutorials
   - walk through a complete example, including data
   - still try to be implementation independent
   - for example, chat with a PDF
+  - add a page under `/src/content/docs/tutorials`
+  - use the template `/src/content/docs/tutorials/template.md`
 
+
+### Media assets
+
+All diagrams are created using [Excalidraw](https://excalidraw.com). Original source files
+are saved under `/media` and exported SVG images in `/src/assets/images`.
