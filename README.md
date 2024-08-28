@@ -8,7 +8,7 @@ layers of a knowledge graph.
 
 ## Contributing
 
-![Documentation Architecture](https://github.com/graphrag/graphrag.github.io/blob/main/src/assets/images/documentation-architecture.svg)
+![Documentation Architecture](https://raw.githubusercontent.com/graphrag/graphrag.github.io/main/src/assets/images/documentation-architecture.svg)
 
 The documentation is structured in accordance with [Diátaxis principles](https://diataxis.fr/).
 
