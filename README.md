@@ -1,10 +1,20 @@
-# GraphRAG Design Pattern Documentation
+# GraphRAG Documentation
 
 GraphRAG is a collection of RAG access patterns which target different
 layers of a knowledge graph.
 
 
 ## Contributing
+
+The documentation is structured in accordance with [Diátaxis principles](https://diataxis.fr/).
+
+- "Concepts" [explain high-level ideas](https://diataxis.fr/explanation/) 
+- "Guides" are [how-to guides](https://diataxis.fr/how-to-guides/) that provide problem solving directions
+- "Reference" are [technical descriptions](https://diataxis.fr/reference/) of what things are
+- "Tutorials" are [complete examples](https://diataxis.fr/tutorials/) that bring everything together
+- "Glossary" defines relevant terminology
+
+Consider this priority order of contribution:
 
 1. Everything gets a glossary entry in `/src/content/docs/appendices/glossary.mdx`
   - terse definitions of terminology and names
