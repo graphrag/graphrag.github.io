@@ -1,5 +1,5 @@
 ---
-title: Intro to GraphRAG
+title: Chat with a PDF
 description: RAG with a knowledge graph
 ---
 

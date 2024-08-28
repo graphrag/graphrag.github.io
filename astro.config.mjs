@@ -21,7 +21,8 @@ export default defineConfig({
 				{
 					label: 'Concepts',
 					items: [
-						{ label: 'Intro to GraphRAG', link: '/explanation/intro-to-graphrag/' },
+						{ label: 'Intro to GraphRAG', link: '/concepts/intro-to-graphrag/' },
+						{ label: 'Intro to Knowledge Graphs', link: '/concepts/intro-to-knowledge-graphs/' },
 					],
 				},
 				{

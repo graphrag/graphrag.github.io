@@ -8,27 +8,53 @@ hero:
     file: ../../assets/images/graph-trio.svg
   actions:
     - text: What is GraphRAG?
-      link: /explanation/intro-to-graphrag
+      link: /concepts/intro-to-graphrag
       icon: right-arrow
       variant: primary
-    - text: Jump to GraphRAG code repositories
-      link: https://github.com/graphrag
-      icon: external
+    - text: What is a Knowledge Graph?
+      link: /concepts/intro-to-knowledge-graphs
+      icon: right-arrow
 ---
 
 import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
+## Sections
+
 <CardGrid>
-	<LinkCard title="Guides" icon="open-book" href="/explanation/intro-to-graphrag">
-		Get started with key concepts and how to apply them.
-	</LinkCard>
-	<LinkCard title="GraphRAG Retrieval Patterns" icon="puzzle" href="/reference/graphrag/search">
-		Composeable information retrieval. 
-	</LinkCard>
-	<LinkCard title="Knowledge Graph Patterns" icon="puzzle" href="/reference/knowledge-graph">
-		Collect, connect, and enhance. Repeat.
-	</LinkCard>
-	<LinkCard title="Foundational Research" icon="pen" href="/appendices/research">
-		Research papers about GraphRAG, knowledge graphs, and graph data science.
-	</LinkCard>
+	<LinkCard 
+		title="Concepts" 
+		description="Learn key concepts and how they fit together."
+		href="/concepts/intro-to-graphrag"		
+	/>
+	<LinkCard 
+		title="How-to Guides" 
+		description="Goal focused guides, from data preparation to retrieval."
+		href="/guides/chunking"
+	/>
+	<LinkCard 
+		title="Tutorials" 
+		description="Put everything together using real data."
+		href="/tutorials/chat-with-pdf"	
+	/>
+	<LinkCard 
+		title="Reference" 
+		description="Succinct descriptions of what things are."
+		href="/reference/graphrag/pattern-matching"
+	/>
+</CardGrid>
+
+### Appendices
+
+<CardGrid>
+	<LinkCard 
+		title="Research" 
+		description="Foundational esearch papers about GraphRAG."
+		href="/appendices/research"
+	/>
+	<LinkCard 
+		title="Glossary" 
+		description="Common terminology and names used within GraphRAG."
+		href="/appendices/glossary"
+	/>
+
 </CardGrid>

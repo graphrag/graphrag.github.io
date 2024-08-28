@@ -1,11 +1,11 @@
 ---
-title: (Explanation Template)
-description: Make a copy of this to create a new explanation
+title: (Concept Explanation Template)
+description: Make a copy of this to create a new concept explanation
 ---
 
 <!-- Diagram -->
 
-![GraphRAG Overview](../../../assets/images/diagram-template.svg)
+![Concept Diagram](../../../assets/images/diagram-template.svg)
 
 **Instructions**: 
 
@@ -14,13 +14,13 @@ description: Make a copy of this to create a new explanation
 3. Save an SVG export of the diagram in `/src/assets/images`
 4. Link to it above using a relative path
 
-## About (Explanation)
+## About (Concept Explanation)
 
 **Instructions**: 
 
 1. Write a brief overview of at most 3 paragraphs, about the size of a LinkedIn post
 
-An Explanation deepens and broadens the reader’s understanding of a subject. It brings clarity, light and context.
+An Concept Explanation deepens and broadens the reader’s understanding of a subject. It brings clarity, light and context.
 
 Explanation - understanding oriented, theoretical knowledge, that serves our study
 The concept of reflection is important. Reflection occurs after something else, and depends on something else, yet at the same time brings something new - shines a new light - on the subject matter.
@@ -29,7 +29,7 @@ The perspective of explanation is higher and wider than that of the other not ty
 
 Explanations motivate why things are the way they are.
 
-## Detailed (Explanation)
+## Detailed (Concept Explanation)
 
 **Instructions**: 
 

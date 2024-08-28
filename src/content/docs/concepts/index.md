@@ -5,6 +5,6 @@ description: High-level concepts, independent of technical implementation or app
 
 ## Explanations
 
-- [Intro to GraphRAG](/explanation/intro/) - 
-- [Knowledge Graph](/explanation/knowledge-graph/) - 
+- [Intro to GraphRAG](/concepts/intro/) - 
+- [Knowledge Graph](/concepts/knowledge-graph/) - 
 
