@@ -51,3 +51,11 @@ Consider this priority order of contribution:
 
 All diagrams are created using [Excalidraw](https://excalidraw.com). Original source files
 are saved under `/media` and exported SVG images in `/src/assets/images`.
+
+---
+
+## Sponsors
+
+![Neo4j](https://avatars.githubusercontent.com/u/201120?s=200&v=4) 
+
+Thanks to [Neo4j](https://neo4j.com) for sponsoring this work.
