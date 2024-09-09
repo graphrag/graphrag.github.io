@@ -1,6 +1,7 @@
 ---
 title: Parent-Child Retriever
 description: A retriever that executes vector similarity search on Child Chunks but retrieves Parent Chunks.
+tags: ["Basic"]
 ---
 
 ## Alternative Names
@@ -17,7 +18,7 @@ The user question is embedded using the same embedder that has been used before 
 
 ## Usage
 
-This pattern is a useful evolution of the Basic Retriever. It is especially useful when several topics are covered in a chunk which subsequently influence the embedding negatively while smaller chunks will have more meaningful vector representations which can then lead to better similarity search results. With limited additional effort, better results can be obtained.
+This pattern is a useful evolution of the [Basic Retriever](/reference/graphrag/basic-retriever). It is especially useful when several topics are covered in a chunk which subsequently influence the embedding negatively while smaller chunks will have more meaningful vector representations which can then lead to better similarity search results. With limited additional effort, better results can be obtained.
 
 ## Further reading
 

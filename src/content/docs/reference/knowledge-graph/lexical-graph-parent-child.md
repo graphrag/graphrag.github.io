@@ -6,7 +6,8 @@ description: A Lexical Graph that additionally contains a Parent-Child Structure
 ## Context
 
 It is useful to chunk large documents into smaller pieces for creating embeddings. An embedding is a text’s semantic representation capturing the meaning of what the text is about. If the given text is long and contains too many diverse subjects, the informative value of its embedding deteriorates.
-A more narrow piece of text will yield a more meaningful vector representation than a broader one since there is less noise from multiple topics. However if the LLM only receives a very small piece of information for answer generation, the information might be missing context. Retrieving the broader piece of text that the found information resides in solves the problem.
+A more narrow piece of text will yield a more meaningful vector representation than a broader one since there is less noise from multiple topics. However if the LLM only receives a very small piece of information for answer generation, the information might be missing context. Retrieving the broader piece of text that the found information resides in solves the problem.  
+This pattern is an evolution of the [Lexical Graph](/reference/knowledge-graph/lexical-graph)
 
 ## Graph Pattern
 
@@ -25,6 +26,9 @@ Chunk nodes contain the human readable text of a chunk and its vector embedding.
 
 ![PART_OF Relationship](../../../../assets/images/element-part-of-relationship.svg)
 The PART_OF relationships do not require additional properties. However, they may contain additional metadata.
+
+![HAS_CHILD Relationship](../../../../assets/images/element-has-child-relationship.svg)
+The HAS_CHILD relationships do not require additional properties. However, they may contain additional metadata.
 
 ## Description
 
