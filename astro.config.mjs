@@ -17,6 +17,7 @@ export default defineConfig({
 			editLink: {
         baseUrl: 'https://github.com/graphrag/graphrag.github.io/edit/main/',
       },
+			lastUpdated: true,
 			sidebar: [
 				{
 					label: 'Concepts',
@@ -69,6 +70,9 @@ export default defineConfig({
 					]
 				}
 			],
+			components: {
+				Footer: './src/components/GrFooter.astro'
+			}
 		}),
 	],
 });
