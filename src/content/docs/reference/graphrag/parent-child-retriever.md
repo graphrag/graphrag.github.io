@@ -9,7 +9,7 @@ description: A retriever that executes vector similarity search on Child Chunks 
 
 ## Required Graph Shape
 
-[Parent-Child Lexical Graph](../knowledge-graph/lexical-graph-parent-child.md)
+[Parent-Child Lexical Graph](/reference/knowledge-graph/lexical-graph-parent-child)
 
 ## Description
 

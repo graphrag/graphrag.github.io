@@ -10,8 +10,26 @@ A more narrow piece of text will yield a more meaningful vector representation t
 
 ## Graph Pattern
 
-![Graph](../../../../assets/images/knowledge-graph-parent-child.svg)
+![Graph](../../../../assets/images/knowledge-graph-lexical-graph-parent-child.svg)
+
+## Elements
+
+### Nodes
+
+![Document Node](../../../../assets/images/element-document-node.svg)
+Document nodes contain the document name and its source. They may contain additional metadata.
+![Chunk Node](../../../../assets/images/element-chunk-node.svg)
+Chunk nodes contain the human readable text of a chunk and its vector embedding. They may contain additional metadata.
+
+### Relationships
+
+![PART_OF Relationship](../../../../assets/images/element-part-of-relationship.svg)
+The PART_OF relationships do not require additional properties. However, they may contain additional metadata.
 
 ## Description
 
 When chunking documents, split them into (bigger) chunks (aka Parent Chunks) and further split these chunks into smaller chunks (aka Child Chunks). Use an embedding model to embed the text content of the Child Chunks. Note, it is not necessary to embed the Parent Chunks since they are only used for the answer generation and not for the similarity search.
+
+## GraphRAG Pattern
+
+A Parent-Child Lexical Graph is used in [Parent-Child Retrievers](/reference/graphrag/parent-child-retriever).
