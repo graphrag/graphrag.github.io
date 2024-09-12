@@ -43,4 +43,4 @@ Additionally to extracting entities and their relationships, we need to form hie
 
 ## GraphRAG Pattern
 
-A Lexical Graph with Extracted Entities and Community Summaries is used in [Global Community Summary Retrievers](/reference/graphrag/global-community-summary-retriever).
+A Lexical Graph with Extracted Entities and Community Summaries is used in [Global Community Summary Retrievers](/reference/graphrag/global-community-summary-retriever) and [Local Retrievers](/reference/graphrag/local-retriever).
