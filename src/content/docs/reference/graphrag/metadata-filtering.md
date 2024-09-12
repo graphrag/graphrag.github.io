@@ -18,7 +18,8 @@ Metadata information that is present in the underlying database is retrieved fro
 
 ## Usage
 
-It is always useful to have structured data that can help filtering the dataset. If applied correctly, metadata filtering will lead to less hallucinations within the answers. However, if we only have unstructured data without metadata, the metadata extraction first needs to be executed, e.g. by an LLM. This can lead to inconsistencies and relevant documents being excluded from the search.
+It is always useful to have structured data that can help filtering the dataset. If applied correctly, metadata filtering will lead to less hallucinations within the answers. However, if we only have unstructured data without metadata, the metadata extraction first needs to be executed, e.g. by an LLM. This can lead to inconsistencies and relevant documents being excluded from the search.  
+Metadata filtering can happen before or after the vector search. Filtering can also happen pattern-based where nodes are not only filtered based on given values but also on existing or non-existing patterns.
 
 ## Further reading
 
