@@ -20,6 +20,8 @@ When the type of questions that a user will pose to the Domain Graph is previous
 
 ## Further reading
 
+- [Enhancing Interaction between Language Models and Graph Databases via a Semantic Layer](https://towardsdatascience.com/enhancing-interaction-between-language-models-and-graph-databases-via-a-semantic-layer-0a78ad3eba49) (January 2024)
+
 ## Existing Implementations
 
 ## Example Implementations
