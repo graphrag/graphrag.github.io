@@ -39,4 +39,4 @@ Use an LLM to execute entity and relationship extraction on the chunks. Import t
 
 ## GraphRAG Pattern
 
-A Lexical Graph with Extracted Entities is used in [Augmented Vector Search](/reference/graphrag/augmented-vector-search).
+A Lexical Graph with Extracted Entities is used in the [Graph-Enhanced Vector Search](/reference/graphrag/graph-enhanced-vector-search).

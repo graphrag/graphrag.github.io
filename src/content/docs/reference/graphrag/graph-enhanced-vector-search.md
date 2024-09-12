@@ -1,5 +1,5 @@
 ---
-title: Augmented Vector Search
+title: Graph-Enhanced Vector Search
 description: A retriever that executes vector similarity search on Chunks and continues to execute a graph traversal starting from the found nodes.
 tags: ["Advanced"]
 ---
@@ -7,6 +7,7 @@ tags: ["Advanced"]
 ## Alternative Names
 
 - Graph + Vector
+- Augmented Vector Search
 
 ## Required Graph Shape
 
