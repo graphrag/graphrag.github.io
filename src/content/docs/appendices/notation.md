@@ -12,8 +12,8 @@ description: Compact notation for describing knowledge graph structures
 The GraphRAG pattern catalog uses a graph notation to describe logical graph structures
 called patterns that are composed of nodes, relationships and subjects.
 
-![Pattern Element](../../../assets/images/railroad/pattern-element.svg)
-*PatternElement*
+![PatternElement is a Node, Relationship or Subject](../../../assets/images/railroad/pattern-element.svg)
+*PatternElement is a Node, Relationship or Subject*
 
 ### Nodes
 
