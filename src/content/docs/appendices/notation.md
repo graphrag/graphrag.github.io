@@ -4,7 +4,7 @@ description: Compact notation for describing knowledge graph structures
 ---
 
 
-![Graph pattern railroad diagram](/src/assets/images/railroad/pattern.svg)
+![Graph pattern railroad diagram](../../../assets/images/railroad/pattern.svg)
 *Graph pattern railroad diagram, a comma-separated list of PatternElement*
 
 ## About Notation
@@ -12,12 +12,12 @@ description: Compact notation for describing knowledge graph structures
 The GraphRAG pattern catalog uses a graph notation to describe logical graph structures
 called patterns that are composed of nodes, relationships and subjects.
 
-![Pattern Element](/src/assets/images/railroad/pattern-element.svg)
+![Pattern Element](../../../assets/images/railroad/pattern-element.svg)
 *PatternElement*
 
 ### Nodes
 
-![Node is delimted by parentheses](/src/assets/images/railroad/node.svg)
+![Node is delimted by parentheses](../../../assets/images/railroad/node.svg)
 *Node is delimted by parentheses*
 
 Nodes are individual records in a graph.
@@ -46,11 +46,11 @@ Nodes are individual records in a graph.
 
 ### Relationships
 
-![Relationship starts with a node, then an arrow followed by a Path](/src/assets/images/railroad/relationship.svg)
+![Relationship starts with a node, then an arrow followed by a Path](../../../assets/images/railroad/relationship.svg)
 *Relationship starts with a Node, then an Arrow followed by a Path*
-![Arrow looks like an arrow](/src/assets/images/railroad/arrow.svg)
+![Arrow looks like an arrow](../../../assets/images/railroad/arrow.svg)
 *Arrow looks like an arrow*
-![Path is either a node or a Relationship (which starts with a Node)](/src/assets/images/railroad/path.svg)
+![Path is either a node or a Relationship (which starts with a Node)](../../../assets/images/railroad/path.svg)
 *Path is either a node or a Relationship (which starts with a Node)*
 
 Relationships pair two nodes, a 'from' and a 'to' node. 
@@ -63,7 +63,7 @@ Relationships pair two nodes, a 'from' and a 'to' node.
 
 ### Subjects
 
-![Subject is surrounded by square brackets](/src/assets/images/railroad/subject.svg)
+![Subject is surrounded by square brackets](../../../assets/images/railroad/subject.svg)
 *Subject is delimted by square brackets*
 
 Subjects compose multiple graph elements.
