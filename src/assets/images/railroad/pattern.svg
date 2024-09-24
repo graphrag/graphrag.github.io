@@ -1,0 +1,100 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="railroad-diagram" width="589" height="81" viewBox="0 0 589 81">
+  <defs>
+    <style type="text/css">
+      svg.railroad-diagram {
+          background-color: hsl(30,20%,95%);
+      }
+      svg.railroad-diagram path {
+          stroke-width: 3;
+          stroke: black;
+          fill: rgba(0,0,0,0);
+      }
+      svg.railroad-diagram text {
+          font: bold 14px monospace;
+          text-anchor: middle;
+      }
+      svg.railroad-diagram text.label {
+          text-anchor: start;
+      }
+      svg.railroad-diagram text.comment {
+          font: italic 12px monospace;
+      }
+      svg.railroad-diagram rect {
+          stroke-width: 3;
+          stroke: black;
+          fill: hsl(120,100%,90%);
+      }
+      
+      </style>
+  </defs>
+  <g transform="translate(.5 .5)">
+  <path d="M 20 31 v 20 m 10 -20 v 20 m -10 -10 h 20.5"></path>
+  <g>
+  <path d="M40 41h0"></path>
+  <path d="M548 41h0"></path>
+  <path d="M40 41h20"></path>
+  <g>
+  <path d="M60 41h0"></path>
+  <path d="M528 41h0"></path>
+  <path d="M60 41h10"></path>
+  <g>
+  <path d="M70 41h0"></path>
+  <path d="M202 41h0"></path>
+  <rect x="70" y="30" width="132" height="22"></rect>
+  <text x="136" y="45">PatternElement</text>
+  </g>
+  <path d="M202 41h10"></path>
+  <g>
+  <path d="M212 41h0"></path>
+  <path d="M528 41h0"></path>
+  <path d="M212 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+  <g>
+  <path d="M232 21h276"></path>
+  </g>
+  <path d="M508 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+  <path d="M212 41h20"></path>
+  <g>
+  <path d="M232 41h0"></path>
+  <path d="M508 41h0"></path>
+  <path d="M232 41h10"></path>
+  <g>
+  <path d="M242 41h0"></path>
+  <path d="M498 41h0"></path>
+  <path d="M242 41h20"></path>
+  <g>
+  <path d="M262 41h0"></path>
+  <path d="M478 41h0"></path>
+  <path d="M262 41h10"></path>
+  <g>
+  <path d="M272 41h0"></path>
+  <path d="M316 41h0"></path>
+  <rect x="272" y="30" width="44" height="22" rx="10" ry="10"></rect>
+  <text x="294" y="45">","</text>
+  </g>
+  <path d="M316 41h10"></path>
+  <path d="M326 41h10"></path>
+  <g>
+  <path d="M336 41h0"></path>
+  <path d="M468 41h0"></path>
+  <rect x="336" y="30" width="132" height="22"></rect>
+  <text x="402" y="45">PatternElement</text>
+  </g>
+  <path d="M468 41h10"></path>
+  </g>
+  <path d="M478 41h20"></path>
+  </g>
+  <path d="M498 41h10"></path>
+  <path d="M242 41a10 10 0 0 0 -10 10v0a10 10 0 0 0 10 10"></path>
+  <g>
+  <path d="M242 61h256"></path>
+  </g>
+  <path d="M498 61a10 10 0 0 0 10 -10v0a10 10 0 0 0 -10 -10"></path>
+  </g>
+  <path d="M508 41h20"></path>
+  </g>
+  </g>
+  <path d="M528 41h20"></path>
+  </g>
+  <path d="M 548 41 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+  </g>
+  </svg>

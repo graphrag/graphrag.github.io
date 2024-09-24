@@ -67,6 +67,10 @@ export default defineConfig({
 							label: 'Glossary', 
 							link: '/appendices/glossary',
 						},
+						{ 
+							label: 'Graph Notation', 
+							link: '/appendices/notation',
+						},
 					]
 				}
 			],
