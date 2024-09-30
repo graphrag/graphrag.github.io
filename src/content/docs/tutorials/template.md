@@ -33,12 +33,11 @@ A tutorial in other words is a lesson. They apply how-tos into a practical solut
 
 1. Add extra sections that outline a complete solution
 
-**Further reading**:
+## Further reading
 
 **Instructions**:
 
 1. Provide links to external sources
-2. Link to relevant how-tos and reference material used in the tutorial
-3. Don't keep the link below, it's for your reference as the author
+2. Don't keep the link below or these instructions, they're for your reference as the author
 
 - Read [about tutorials](https://diataxis.fr/tutorials/) in the Diátaxis framework

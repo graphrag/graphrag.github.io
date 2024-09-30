@@ -33,11 +33,11 @@ How-to guides describe how to do accomplish some goal.
 1. Add extra sections with step-by-step directions
 2. Avoid implementation specific details (programming language or framework -specific)
 
-**Further reading**:
+## Further reading
 
 **Instructions**:
 
 1. Provide links to external sources
-2. Don't keep the link below, it's for your reference as the author
+2. Don't keep the link below or these instructions, they're for your reference as the author
 
 - Read [about guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
