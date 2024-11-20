@@ -18,6 +18,19 @@ export default defineConfig({
         baseUrl: 'https://github.com/graphrag/graphrag.github.io/edit/main/',
       },
 			lastUpdated: true,
+			head: [
+				{
+					tag: 'script',
+					attrs: {
+						async: true,
+						src: 'https://www.googletagmanager.com/gtag/js?id=G-DL38Q8KGQC'
+					}
+				},
+				{
+					tag: 'script',
+					content: "  window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-DL38Q8KGQC');"
+				}
+			],
 			sidebar: [
 				{
 					label: 'Concepts',
