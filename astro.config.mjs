@@ -5,7 +5,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://graphrag.github.io',
+  site: 'https://graphrag.com',
   integrations: [starlight({
     title: 'GraphRAG',
     logo: {
