@@ -51,7 +51,7 @@ RETURN m.title, m.year
 ```
 
 ```cypher
-// Which which movies were released between $startYear and $endYear
+// Which movies were released between $startYear and $endYear
 MATCH (m:Movie)
 WHERE $startYear <= m.year <= $endYear
 RETURN m.title, m.year
@@ -60,7 +60,7 @@ RETURN m.title, m.year
 ## Further reading
 
 - [Build a Knowledge Graph-based Agent With Llama 3.1, NVIDIA NIM, and LangChain](https://medium.com/neo4j/build-a-knowledge-graph-based-agent-with-llama-3-1-nvidia-nim-and-langchain-feb65788e637) (Tomaz Bratanic, August 2024)
-* [GraphRAG in Action: From Commercial Contracts to a Dynamic Q&A Agent](https://towardsdatascience.com/graphrag-in-action-from-commercial-contracts-to-a-dynamic-q-a-agent-7d4a6caa6eb5)
+* [GraphRAG in Action: From Commercial Contracts to a Dynamic Q&A Agent](https://towardsdatascience.com/graphrag-in-action-from-commercial-contracts-to-a-dynamic-q-a-agent-7d4a6caa6eb5) (Ed Sandoval, Oct 2024)
 
 ## Existing Implementations
 
