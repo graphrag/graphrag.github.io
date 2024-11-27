@@ -6,6 +6,7 @@ tags: ["Intermediate"]
 
 ## Required Graph Shape
 
+![Domain Graph](../../../../assets/images/domain-graph.svg)
 [Domain Graph](/reference/knowledge-graph/domain-graph)
 
 ## Context
@@ -39,6 +40,22 @@ Still, the range of questions is limited by the provided snippets.
 ## Required pre-processing
 
 Snippets of parameterized Cypher queries and a description of what they do are made available to the LLM.
+
+## Graph Query
+
+```cypher
+// Which movies has ($director) directed?
+MATCH (d:Director)-[:DIRECTED]->(m:Movie)
+WHERE d.name = $director
+RETURN m.title, m.year
+```
+
+```cypher
+// Which which movies were released between $startYear and $endYear
+MATCH (m:Movie)
+WHERE $startYear <= m.year <= $endYear
+RETURN m.title, m.year
+```
 
 ## Further reading
 
