@@ -8,25 +8,42 @@ tags: ["Intermediate"]
 
 [Domain Graph](/reference/knowledge-graph/domain-graph)
 
-## Description
+## Context
 
-A lot of user questions for structured data will contain several filters but not always the exact same ones. Let’s use the example of the Movie Graph to illustrate it. There might be several related questions being asked:
+Many user questions for structured data will contain several filters, but not always the exact same ones. 
+Let’s use the example of the Movie Graph to illustrate. 
+
+There might be several related questions being asked:
 
 - Which movies has Steven Spielberg directed?
-- Which movies has Steven Spielberg directed between 2000 and 2010?
-- Which movies has Steven Spielberg directed between 2000 and 2010 which …?
+- Which movies did Steven Spielberg direct between 2000 and 2010?
+- Which movies did Steven Spielberg direct between 2000 and 2010 that [example]?
 
-This list can infinitely continue. You would not want to create a Cypher Template for every one of these questions. The solution is to dynamically generate cypher queries based on the parameters actually given in the user question.
+This list can infinitely continue. 
+You would not want to create a Cypher Template for every one of these questions. 
+The solution is to (partially) dynamically generate Cypher queries based on the parameters actually given in the user question.
 
-Given a user question an LLM decides which of the cypher templates to use. The LLM possibly extracts parameters from the user question and plugs them into the template. The query is executed on the database and the results are provided back to the LLM to generate an answer.
+## Description
+
+Given a user question an LLM decides which of the Cypher templates to use. 
+The LLM possibly extracts parameters from the user question and plugs them into the template. 
+The query is executed on the database and the results are provided back to the LLM to generate an answer.
+Multiple templates can also be used in a chain or loop, which then leads to an agentic query system.
 
 ## Usage
 
-This pattern is an evolution of [Cypher Templates](/reference/graphrag/cypher-templates). It is much more flexible allowing for more diverse user questions to be answered. Still, the range of questions is limited by the provided snippets.
+This pattern is an evolution of [Cypher Templates](/reference/graphrag/cypher-templates). 
+It is much more flexible allowing for more diverse user questions to be answered. 
+Still, the range of questions is limited by the provided snippets.
+
+## Required pre-processing
+
+Snippets of parameterized Cypher queries and a description of what they do are made available to the LLM.
 
 ## Further reading
 
 - [Build a Knowledge Graph-based Agent With Llama 3.1, NVIDIA NIM, and LangChain](https://medium.com/neo4j/build-a-knowledge-graph-based-agent-with-llama-3-1-nvidia-nim-and-langchain-feb65788e637) (Tomaz Bratanic, August 2024)
+* [GraphRAG in Action: From Commercial Contracts to a Dynamic Q&A Agent](https://towardsdatascience.com/graphrag-in-action-from-commercial-contracts-to-a-dynamic-q-a-agent-7d4a6caa6eb5)
 
 ## Existing Implementations
 
