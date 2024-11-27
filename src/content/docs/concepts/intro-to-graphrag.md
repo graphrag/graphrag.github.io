@@ -76,3 +76,44 @@ A modular RAG system contains more complex patterns, which require orchestration
 
 Here, we want to focus on the *retrieval phase* and compile a catalog of the most-often referenced GraphRAG retrieval patterns and their required graph patterns. 
 Please note that the patterns here are not an exhaustive list.
+
+### How to GraphRAG
+
+If you’re looking to implement the retrievers discussed here using the [neo4j-graphrag package](https://neo4j.com/blog/graphrag-python-package/), [LangChain](https://neo4j.com/labs/genai-ecosystem/langchain/), [LlamaIndex](https://neo4j.com/labs/genai-ecosystem/llamaindex/), check their GraphRAG retriever integrations.
+<!-- Neo4j Vector 
+We won’t cover setting up your Python project for Neo4j-based retrievers here, as that’s well-documented elsewhere (e.g. the GraphAcademy Courses mentioned below).
+-->
+
+Here we focus on the intriguing part: using the `retrieval_query` to implement the GraphRAG patterns we discuss. The details of each pattern will include the corresponding query.
+
+Remember, when crafting your query, there’s an invisible “first part” that performs the search operation to find your entry points into the graph (which can be vector, fulltext, spatial, hybrid or filters). 
+The search part returns the found nodes and their similarity scores, which you can then use in your retrieval query to execute further traversals. 
+<!-- In the retrieval query can also use additional custom parameters and the `$embedding` parameter for the question embedding. 
+-->
+
+Here is an example of how this might look (example from LangChain Neo4j Vector documentation):
+
+```python
+retrieval_query = """
+RETURN "Name: " + node.name AS text, score, {source:node.url} AS metadata
+"""
+retrieval_example = Neo4jVector.from_existing_index(
+    OpenAIEmbeddings(),
+    url=url,
+    username=username,
+    password=password,
+    index_name="person_index",
+    retrieval_query=retrieval_query,
+)
+retrieval_example.similarity_search("Jon Snow", k=1)
+```
+
+In the above example, a vector similarity search is executed on the existing index `person_index` using the user input `"Jon Snow"` and returning the `name`, the `score`, and some `metadata` are returned for the one node with the best fit `(k=1)`.
+
+<!-- todo continue -->
+
+## Further Reading
+
+* [Neo4j GraphAcademy: Build a Neo4j-backed Chatbot using Python](https://graphacademy.neo4j.com/courses/llm-chatbot-python/) 
+* [Integrating Neo4j into the LangChain ecosystem](https://towardsdatascience.com/integrating-neo4j-into-the-langchain-ecosystem-df0e988344d2)
+* [Neo4j GraphAcademy: Mastering Retrieval-Augmented Generation (RAG)]https://graphacademy.neo4j.com/courses/genai-workshop-graphrag/
