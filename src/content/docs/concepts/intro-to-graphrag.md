@@ -116,4 +116,4 @@ In the above example, a vector similarity search is executed on the existing ind
 
 * [Neo4j GraphAcademy: Build a Neo4j-backed Chatbot using Python](https://graphacademy.neo4j.com/courses/llm-chatbot-python/) 
 * [Integrating Neo4j into the LangChain ecosystem](https://towardsdatascience.com/integrating-neo4j-into-the-langchain-ecosystem-df0e988344d2)
-* [Neo4j GraphAcademy: Mastering Retrieval-Augmented Generation (RAG)]https://graphacademy.neo4j.com/courses/genai-workshop-graphrag/
+* [Neo4j GraphAcademy: Mastering Retrieval-Augmented Generation (RAG)](https://graphacademy.neo4j.com/courses/genai-workshop-graphrag/)
