@@ -9,7 +9,7 @@ tags: ["Basic"]
 [Lexical Graph with Hypothetical Questions](/reference/knowledge-graph/lexical-graph-hypothetical-questions)
 ![Lexical Graph with Hypothetical Questions](../../../../assets/images/knowledge-graph-lexical-graph-hypothetical-questions.svg)
 
-## Context: 
+## Context
 
 The vector similarity between a question’s embedding and the text embedding of an appropriate answer or text source might be quite low. 
 If we have question-chunk pairs available, we can execute a vector similarity search on the question embeddings, which will probably deliver much better results than a vector similarity search on the original text chunk.
