@@ -1,7 +1,8 @@
-# GraphRAG Documentation
+# GraphRAG Pattern Catalog
 
-GraphRAG is a collection of RAG access patterns which target different
-layers of a knowledge graph.
+GraphRAG is a collection of RAG access patterns which target different layers of a knowledge graph.
+
+It is available on https://graphrag.com
 
 ## Contributing
 
