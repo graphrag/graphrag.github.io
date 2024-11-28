@@ -46,16 +46,16 @@ To give you a clearer picture, the patterns explained in this post include:
 
 ### Knowledge Graph Models
 
-* [Domain Graph](reference/knowledge-graph/domain-graph/)
-* [Lexical Graph](reference/knowledge-graph/lexical-graph/)
-* [Parent-Child Lexical Graph](reference/knowledge-graph/lexical-graph-parent-child/)
-* [Lexical Graph with Sibling Structure](reference/knowledge-graph/lexical-graph-sibling-structure/)
-* [Lexical Graph with Extracted Entities](reference/knowledge-graph/lexical-graph-extracted-entities/)
-* [Lexical Graph with Extracted Entities and Community Summaries](reference/knowledge-graph/lexical-graph-extracted-entities-community-summaries/)
-* [Lexical Graph with Hierarchical Structure](reference/knowledge-graph/lexical-graph-hierarchical-structure/)
-* [Lexical Graph with Hypothetical Questions](reference/knowledge-graph/lexical-graph-hypothetical-questions/)
-* [Memory Graph](reference/knowledge-graph/memory-graph/)
-* [Text Sequence](reference/knowledge-graph/text-seq/)
+* [Domain Graph](/reference/knowledge-graph/domain-graph/)
+* [Lexical Graph](/reference/knowledge-graph/lexical-graph/)
+* [Parent-Child Lexical Graph](/reference/knowledge-graph/lexical-graph-parent-child/)
+* [Lexical Graph with Sibling Structure](/reference/knowledge-graph/lexical-graph-sibling-structure/)
+* [Lexical Graph with Extracted Entities](/reference/knowledge-graph/lexical-graph-extracted-entities/)
+* [Lexical Graph with Extracted Entities and Community Summaries](/reference/knowledge-graph/lexical-graph-extracted-entities-community-summaries/)
+* [Lexical Graph with Hierarchical Structure](/reference/knowledge-graph/lexical-graph-hierarchical-structure/)
+* [Lexical Graph with Hypothetical Questions](/reference/knowledge-graph/lexical-graph-hypothetical-questions/)
+* [Memory Graph](/reference/knowledge-graph/memory-graph/)
+* [Text Sequence](/reference/knowledge-graph/text-seq/)
 
 ### Thematic Classification
 
