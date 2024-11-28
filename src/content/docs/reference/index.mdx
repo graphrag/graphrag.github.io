@@ -2,6 +2,8 @@
 title: GraphRAG Patterns Catalog
 description: List of GraphRAG retriever patterns and accompanying Knowledge Graph Models
 ---
+import { getCollection, getEntry } from 'astro:content';
+export const pages = await getCollection('docs');
 
 ## GraphRAG Patterns Catalog
 
@@ -12,30 +14,23 @@ Finding the perfect GraphRAG pattern for your application isn’t straightforwar
 
 ### GraphRAG Patterns
 
-* [Basic Retriever](/reference/graphrag/basic-retriever/)
-* [Cypher Templates](/reference/graphrag/cypher-templates/)
-* [Dynamic Cypher Generation](/reference/graphrag/dynamic-cypher-generation/)
-* [Global Community Summary Retriever](/reference/graphrag/global-community-summary-retriever/)
-* [Graph-Enhanced Vector Search](reference/graphrag/graph-enhanced-vector-search/)
-* [Hypothetical Question Retriever](reference/graphrag/hypothetical-question-retriever/)
-* [Local Retriever](reference/graphrag/local-retriever/)
-* [Metadata Filtering](reference/graphrag/metadata-filtering/)
-* [Parent-Child Retriever](reference/graphrag/parent-child-retriever/)
-* [Pattern Matching](reference/graphrag/pattern-matching/)
-* [Text2Cypher](reference/graphrag/text2cypher/)
+<ul>
+{pages.filter(page => page.slug.indexOf("/graphrag/")!=-1).map(page => (
+        <li key={page.slug}>
+            <a href={"/"+page.slug}>{page.data.title}</a>
+        </li>
+    ))}
+</ul>
 
 ### Knowledge Graph Models
 
-* [Domain Graph](reference/knowledge-graph/domain-graph/)
-* [Lexical Graph](reference/knowledge-graph/lexical-graph/)
-* [Parent-Child Lexical Graph](reference/knowledge-graph/lexical-graph-parent-child/)
-* [Lexical Graph with Sibling Structure](reference/knowledge-graph/lexical-graph-sibling-structure/)
-* [Lexical Graph with Extracted Entities](reference/knowledge-graph/lexical-graph-extracted-entities/)
-* [Lexical Graph with Extracted Entities and Community Summaries](reference/knowledge-graph/lexical-graph-extracted-entities-community-summaries/)
-* [Lexical Graph with Hierarchical Structure](reference/knowledge-graph/lexical-graph-hierarchical-structure/)
-* [Lexical Graph with Hypothetical Questions](reference/knowledge-graph/lexical-graph-hypothetical-questions/)
-* [Memory Graph](reference/knowledge-graph/memory-graph/)
-* [Text Sequence](reference/knowledge-graph/text-seq/)
+<ul>
+{pages.filter(page => page.slug.indexOf("/knowledge-graph/")!=-1).map(page => (
+        <li key={page.slug}>
+            <a href={"/"+page.slug}>{page.data.title}</a>
+        </li>
+    ))}
+</ul>
 
 ### Data Preparation
 
