@@ -44,14 +44,6 @@ export default defineConfig({
         link: '/concepts/intro-to-knowledge-graphs/'
       }]
     }, {
-      label: 'Tutorials',
-      items: [
-      // Each item here is one entry in the navigation menu.
-      {
-        label: 'Chat with a PDF',
-        link: '/tutorials/chat-with-pdf/'
-      }]
-    }, {
       label: 'How-to Guides',
       items: [{
         label: 'Chunking',
@@ -60,7 +52,7 @@ export default defineConfig({
     }, {
       label: 'Reference',
       items: [{
-        label: 'Retrieval Patterns',
+        label: 'Retrieval',
         autogenerate: {
           directory: 'reference/graphrag'
         }

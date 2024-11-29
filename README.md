@@ -37,12 +37,13 @@ Consider this priority order of contribution:
   - for example, how to perform vector similarity search
   - add a page under `/src/content/docs/guides`
   - use the template `/src/content/docs/guides/template.md`
-4. Tutorial - some how-to guides can be combined into tutorials
-  - walk through a complete example, including data
-  - still try to be implementation independent
-  - for example, chat with a PDF
-  - add a page under `/src/content/docs/tutorials`
-  - use the template `/src/content/docs/tutorials/template.md`
+4. ~~Tutorial - some how-to guides can be combined into tutorials~~
+  - prefer to reference/link to tutorials where appropriate and available
+  - ~~walk through a complete example, including data~~
+  - ~~still try to be implementation independent~~
+  - ~~for example, chat with a PDF~~
+  - ~~add a page under `/src/content/docs/tutorials`~~
+  - ~~use the template `/src/content/docs/tutorials/template.md`~~
 
 
 ### Media assets
