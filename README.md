@@ -45,6 +45,9 @@ Consider this priority order of contribution:
   - ~~add a page under `/src/content/docs/tutorials`~~
   - ~~use the template `/src/content/docs/tutorials/template.md`~~
 
+### Research papers
+
+Add relevant research papers from [ArXiv](https://arxiv.org) by adding an entry to [papers.json](https://github.com/graphrag/graphrag.github.io/blob/main/src/data/papers.json) with the `arxivid` and an optional `github` org/repo combination.
 
 ### Media assets
 
