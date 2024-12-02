@@ -1,0 +1,86 @@
+[
+  {
+    "arxivid": "2408.08921",
+    "github": "pengboci/GraphRAG-Survey"
+  },
+  {
+    "arxivid": "2312.16890",
+    "github": "HKUDS/DiffKG"
+  },
+  {
+    "arxivid": "2306.08302",
+    "github": ""
+  },
+  {
+    "arxivid": "2310.04560",
+    "github": "google-research/talk-like-a-graph"
+  },
+  {
+    "arxivid": "2311.07509",
+    "github": "datadotworld/cwd-benchmark-data"
+  },
+  {
+    "arxivid": "2402.07630",
+    "github": "XiaoxinHe/G-Retriever"
+  },
+  {
+    "arxivid": "2404.12491",
+    "github": "urchade/GraphER"
+  },
+  {
+    "arxivid": "2404.16130",
+    "github": "microsoft/graphrag"
+  },
+  {
+    "arxivid": "2404.17723",
+    "github": ""
+  },
+  {
+    "arxivid": "2408.04948",
+    "github": ""
+  },
+  {
+    "arxivid": "2406.14550",
+    "github": ""
+  },
+  {
+    "arxivid": "2410.05779",
+    "github": "HKUDS/LightRAG"
+  },
+  {
+    "arxivid": "2410.08815",
+    "github": "Li-Z-Q/StructRAG"
+  },
+  {
+    "arxivid": "2307.07697",
+    "github": "IDEA-FinAI/ToG"
+  },
+  {
+    "arxivid": "2405.14831",
+    "github": "OSU-NLP-Group/HippoRAG"
+  },
+  {
+    "arxivid": "2408.04187",
+    "github": "MedicineToken/Medical-Graph-RAG"
+  },
+  {
+    "arxivid": "2405.18414",
+    "github": ""
+  },
+  {
+    "arxivid": "2405.16506",
+    "github": "HuieL/GRAG"
+  },
+  {
+    "arxivid": "2410.23875",
+    "github": "liyichen-cly/PoG"
+  },
+  {
+    "arxivid": "2410.18415",
+    "github": ""
+  },
+  {
+    "arxivid": "2404.07103",
+    "github": "PeterGriffinJin/Graph-CoT"
+  }
+]

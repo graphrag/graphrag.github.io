@@ -12,11 +12,11 @@ The GraphRAG pattern catalog uses a data notation called `gram` to describe
 logical graph structures called patterns that are composed of nodes, relationships 
 and subjects.
 
-The Gram notation is intended to be self-descriptive and explicit, able to 
-represent data and structures that are often implicit in a physical graph models. 
-For example, paths are present in any connected graph, however storing path-level 
-information isn't normally supported. You can find paths, even store paths, but 
-there is no way to "say something" about a path.
+> The Gram notation is intended to be self-descriptive and explicit, able to 
+> represent data and structures that are often implicit in a physical graph models. 
+> For example, paths are present in any connected graph, however storing path-level 
+> information isn't normally supported. You can find paths, even store paths, but 
+> there is no way to "say something" about a path.
 
 Gram starts with a notion of "subjects" as a self-describing data structure
 in two parts:

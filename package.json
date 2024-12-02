@@ -7,16 +7,22 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "test": "vitest"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.3",
     "@astrojs/starlight": "^0.26.1",
     "@astrojs/starlight-tailwind": "^2.0.3",
     "@astrojs/tailwind": "^5.1.2",
+    "@effect/platform-node": "^0.65.0",
     "astro": "^4.14.5",
+    "date-fns": "^4.1.0",
+    "effect": "^3.11.0",
     "sharp": "^0.33.5",
     "tailwindcss": "^3.4.15",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "vitest": "^2.1.7",
+    "xml-js": "^1.6.11"
   }
 }

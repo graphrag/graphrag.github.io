@@ -1,0 +1,82 @@
+
+---
+import { format } from 'date-fns';
+
+import {extractArxivID, getPaper} from '../lib/arxiv'
+
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+
+const props = Astro.props;
+
+const arxivEntry = props.arxiv
+
+const arxivid = extractArxivID(arxivEntry.id)
+
+const paper = getPaper(arxivid)
+
+---
+<StarlightPage 
+  frontmatter={{ title: arxivEntry.title, editUrl:false, tableOfContents:false} }}
+>
+  <p class="byline text-xs">
+    <time itemprop="published" datetime={format(arxivEntry.published, 'yyyy-MM-dd')}>
+      Published {format(arxivEntry.published, 'MMMM do, yyyy')}
+    </time>
+    <address class="author text-xs">By 
+      {arxivEntry.author.map( (author:any, i:number) => (
+        <span>{(i ? ', ' : '')}<a rel="author" class="url fn n">{author.name}</a></span>
+      ))}
+    </address>
+    <cite class="arxivid text-xs">
+      <a href={arxivEntry.id}>arXiv:{arxivid}</a> 
+      [ {arxivEntry.category.join(", ")}
+      ]
+    </cite>
+    <cite class="github text-xs">
+      {paper?.github !== undefined && paper.github !== "" ?
+        (<a href={"https://github.com/" + paper?.github}>github:{paper?.github}</a>)
+        : ''
+      }
+      
+    </cite>
+  </p>
+  
+  <h2 id="quote">Abstract</h2>
+  <blockquote><p>{arxivEntry.summary}</p></blockquote>
+
+</StarlightPage>
+
+
+
+<!-- <StarlightPage 
+  frontmatter={{ title: `${entry.title.text}`, editUrl:false, tableOfContents:false} }}
+>
+
+<p class="byline text-xs">
+  <time pubdate={format(pubDate, 'yyyy-MM-dd')} title="August 28th, 2011">Published {format(pubDate, 'MMMM do, yyyy')}</time>
+  <address class="author text-xs">By 
+    {authors.map( (author:any, i:number) => (
+      <span key={i}>{(i ? ', ' : '')}
+        <a rel="author" class="url fn n">{author.name.text}</a>
+      </span>
+    ))}
+  </address>
+  <cite class="arxivid text-xs">
+    <a href={entry.id.text}>arXiv:{arxivid}</a> 
+    [ {categories.map( (category:any) => category._attributes.term).join(", ")}
+    ]
+  </cite>
+  <cite class="github text-xs">
+    {paper?.github !== undefined && paper.github !== "" ?
+      (<a href={"https://github.com/" + paper?.github}>github:{paper?.github}</a>)
+      : ''
+    }
+    
+  </cite>
+</p>
+
+
+<h2 id="quote">Abstract</h2>
+<blockquote><p>{entry.summary.text}</p></blockquote>
+
+</StarlightPage> -->

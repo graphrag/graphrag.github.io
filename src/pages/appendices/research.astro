@@ -1,0 +1,42 @@
+---
+import { Effect, Either } from "effect"
+import { FetchHttpClient } from "@effect/platform"
+
+import { getArxivDetails, extractArxivID } from '../../lib/arxiv'
+import type {ArxivEntry} from '../../lib/arxiv'
+
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+
+import papers from '../../data/papers.json';
+
+const arxivids = papers.map(p => p.arxivid)
+
+const program = Effect.forEach(arxivids, (arxivid) =>
+  getArxivDetails(arxivid)
+).pipe(
+  Effect.map( Either.all ), // gather all the successes into one array
+  Effect.scoped,
+  Effect.provide(FetchHttpClient.layer)
+)
+
+const results = await Effect.runPromise(program)
+
+const sorted = Either.getOrElse(results,
+    () => ([])
+).sort((a:any,b:any) => (a.published.text < b.published.text) ? -1 : 1);
+
+---
+<StarlightPage frontmatter={{ 
+  title: "Research Papers",
+  description: "Foundational research papers about GraphRAG and Knowledge Graphs",
+  editUrl: "https://github.com/graphrag/graphrag.github.io/blob/main/src/data/papers.json",
+  tableOfContents: false
+ }}>
+
+  <ul>
+    {sorted.map( (entry:ArxivEntry) => (
+      <li><a href={`/appendices/research/${extractArxivID(entry.id)}`}>{entry.title}</a></li>
+    ))}
+  </ul>
+
+  </StarlightPage>

@@ -1,0 +1,36 @@
+---
+
+import { Effect, Either } from "effect"
+import { FetchHttpClient } from "@effect/platform"
+
+import { getArxivDetails } from '../../../lib/arxiv'
+
+import papers from '../../../data/papers.json';
+import GrArxivPage from "../../../components/GrArxivPage.astro";
+
+export function getStaticPaths() {
+  return papers.map(p => ({params: {paper: p.arxivid}}))
+}
+
+const { paper:arxivid } = Astro.params;
+
+const fetchPaper = getArxivDetails(arxivid).pipe(
+    Effect.scoped,
+    Effect.provide(FetchHttpClient.layer) 
+  );
+
+const fetchedEntry = await Effect.runPromise(fetchPaper)
+
+---
+
+{
+  Either.match(fetchedEntry, {
+    onLeft: (error) => (
+      <div>
+        <h1>Failed to fetch {arxivid}</h1>
+        <pre>{error.message}</pre>
+      </div>
+    ),
+    onRight: (arxivEntry) => (<GrArxivPage arxiv={arxivEntry} />)
+  })
+}
