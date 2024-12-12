@@ -30,18 +30,18 @@ To give you a clearer picture, the patterns explained in this post include:
 ### Basic GraphRAG Patterns
 
 * [Basic Retriever](/reference/graphrag/basic-retriever/)
-* [Pattern Matching](reference/graphrag/pattern-matching/)
+* [Pattern Matching](/reference/graphrag/pattern-matching/)
 * [Cypher Templates](/reference/graphrag/cypher-templates/)
-* [Graph-Enhanced Vector Search](reference/graphrag/graph-enhanced-vector-search/)
-* [Metadata Filtering](reference/graphrag/metadata-filtering/)
-* [Parent-Child Retriever](reference/graphrag/parent-child-retriever/)
+* [Graph-Enhanced Vector Search](/reference/graphrag/graph-enhanced-vector-search/)
+* [Metadata Filtering](/reference/graphrag/metadata-filtering/)
+* [Parent-Child Retriever](/reference/graphrag/parent-child-retriever/)
 
 ### Advanced GraphRAG patterns
 
 * [Dynamic Cypher Generation](/reference/graphrag/dynamic-cypher-generation/)
 * [Global Community Summary Retriever](/reference/graphrag/global-community-summary-retriever/)
-* [Local Retriever](reference/graphrag/local-retriever/)
-* [Hypothetical Question Retriever](reference/graphrag/hypothetical-question-retriever/)
+* [Local Retriever](/reference/graphrag/local-retriever/)
+* [Hypothetical Question Retriever]>(/reference/graphrag/hypothetical-question-retriever/)
 
 
 ### Knowledge Graph Models
