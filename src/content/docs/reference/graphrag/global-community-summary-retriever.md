@@ -51,7 +51,7 @@ RETURN c.full_content AS output
 
 There are several variations in which you could use the Lexical Graph with extracted entities, communities, and community summaries:
 
-* A [Local Retriever](../graphrag/local-retriever) could start by executing a vector search on the entity embeddings and traversing to related entities, chunks, or communities (e.g., see Integrating Microsoft GraphRAG into Neo4j).
+* A [Local Retriever](/reference/graphrag/local-retriever) could start by executing a vector search on the entity embeddings and traversing to related entities, chunks, or communities (e.g., see Integrating Microsoft GraphRAG into Neo4j).
 
 * Depending on the question, we could also execute a vector similarity search on embeddings of the Community Summaries first to identify which subgraph is relevant for the question, then traverse from the communities to its entities and chunks to retrieve additional information.
 

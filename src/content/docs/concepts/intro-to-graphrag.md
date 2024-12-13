@@ -41,7 +41,7 @@ To give you a clearer picture, the patterns explained in this post include:
 * [Dynamic Cypher Generation](/reference/graphrag/dynamic-cypher-generation/)
 * [Global Community Summary Retriever](/reference/graphrag/global-community-summary-retriever/)
 * [Local Retriever](/reference/graphrag/local-retriever/)
-* [Hypothetical Question Retriever]>(/reference/graphrag/hypothetical-question-retriever/)
+* [Hypothetical Question Retriever](/reference/graphrag/hypothetical-question-retriever/)
 
 
 ### Knowledge Graph Models
