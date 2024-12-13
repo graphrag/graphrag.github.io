@@ -7,7 +7,7 @@ tags: ["Intermediate"]
 ## Required Graph Shape
 
 ![Domain Graph](../../../../assets/images/domain-graph.svg)
-[Domain Graph](/reference/knowledge-graph/domain-graph)
+[Domain Graph](/reference/knowledge-graph/domain-graph/)
 
 ## Context
 
@@ -33,7 +33,7 @@ Multiple templates can also be used in a chain or loop, which then leads to an a
 
 ## Usage
 
-This pattern is an evolution of [Cypher Templates](/reference/graphrag/cypher-templates). 
+This pattern is an evolution of [Cypher Templates](/reference/graphrag/cypher-templates/). 
 It is much more flexible allowing for more diverse user questions to be answered. 
 Still, the range of questions is limited by the provided snippets.
 

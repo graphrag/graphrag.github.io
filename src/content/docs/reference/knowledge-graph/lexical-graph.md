@@ -31,4 +31,4 @@ Split documents into chunks and use an embedding model to embed the text content
 
 ## GraphRAG Pattern
 
-A Lexical Graph is used in [Basic Retrievers](/reference/graphrag/basic-retriever).
+A Lexical Graph is used in [Basic Retrievers](/reference/graphrag/basic-retriever/).

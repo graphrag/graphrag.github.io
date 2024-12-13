@@ -6,7 +6,7 @@ description: A Lexical Graph that additionally contains a Hierarchical Structure
 ## Context
 
 If the given documents have pre-defined structures, it is useful to persist them into the chunk structure.
-This pattern is an evolution of the [Lexical Graph](/reference/knowledge-graph/lexical-graph)
+This pattern is an evolution of the [Lexical Graph](/reference/knowledge-graph/lexical-graph/)
 
 ## Graph Pattern
 

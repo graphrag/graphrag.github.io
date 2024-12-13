@@ -12,7 +12,7 @@ tags: ["Advanced"]
 ## Required Graph Shape
 
 ![](../../../../assets/images/knowledge-graph-lexical-graph-extracted-entities.svg)
-[Lexical Graph with Extracted Entities](/reference/knowledge-graph/lexical-graph-extracted-entities)
+[Lexical Graph with Extracted Entities](/reference/knowledge-graph/lexical-graph-extracted-entities/)
 
 ## Context
 
@@ -29,7 +29,7 @@ A traversal starting at the found chunks is executed to retrieve more context.
 
 ## Usage
 
-This pattern is useful for retrieving more enriched context than the results of executing only a vector search as in e.g. [Basic Retrievers](/reference/graphrag/basic-retriever) or [Parent-Child Retrievers](/reference/graphrag/parent-child-retriever). 
+This pattern is useful for retrieving more enriched context than the results of executing only a vector search as in e.g. [Basic Retrievers](/reference/graphrag/basic-retriever/) or [Parent-Child Retrievers](/reference/graphrag/parent-child-retriever/). 
 The additional traversal retrieves the interaction of entities within the provided data which reveals much richer information than the retrieval of specific text chunks. 
 Naturally, the preprocessing for this GraphRAG pattern is effort. 
 Furthermore, the amount of context that is returned by the Graph Traversal can be much larger context which the LLM needs be able to process.
@@ -69,4 +69,4 @@ There are some variations of this retriever:
 
 ## Example Implementations
 
-- [Neo4j's Knowledge Graph Builder](https://github.com/neo4j-labs/llm-graph-builder)
+- [Neo4j's Knowledge Graph Builder](https://github.com/neo4j-labs/llm-graph-builder/)
