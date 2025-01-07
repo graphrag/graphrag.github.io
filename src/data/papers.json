@@ -85,10 +85,14 @@
   },
   {
     "arxivid": "2412.15272",
-    "github": "https://github.com/YZ-Cai/SimGRAG"
+    "github": "YZ-Cai/SimGRAG"
   },
   {
     "arxivid": "2306.04136",
     "github": ""
+  },
+  {
+    "arxivid": "2305.06590",
+    "github": "jiho283/FactKG"
   }
 ]
