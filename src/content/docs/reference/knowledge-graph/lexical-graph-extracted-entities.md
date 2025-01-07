@@ -5,7 +5,7 @@ description: A Lexical Graph that additionally contains extracted entities and r
 
 ## Context
 
-The biggest problem with the vector search approach as in the e.g. [Basic Retrievers](/reference/graphrag/basic-retriever) or [Parent-Child Retrievers](/reference/graphrag/parent-child-retriever) is finding all relevant context that is necessary to answer a question. The context can be spread across many chunks not being found by the search. Relating the real-world entities from the chunks to each other and retrieving these relationships together with a vector search provides additional context about these entities that the chunks deal with.
+The biggest problem with the vector search approach as in the e.g. [Basic Retrievers](/reference/graphrag/basic-retriever/) or [Parent-Child Retrievers](/reference/graphrag/parent-child-retriever/) is finding all relevant context that is necessary to answer a question. The context can be spread across many chunks not being found by the search. Relating the real-world entities from the chunks to each other and retrieving these relationships together with a vector search provides additional context about these entities that the chunks deal with.
 
 ## Graph Pattern
 

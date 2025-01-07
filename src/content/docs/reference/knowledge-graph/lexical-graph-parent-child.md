@@ -7,7 +7,7 @@ description: A Lexical Graph that additionally contains a Parent-Child Structure
 
 It is useful to chunk large documents into smaller pieces for creating embeddings. An embedding is a text’s semantic representation capturing the meaning of what the text is about. If the given text is long and contains too many diverse subjects, the informative value of its embedding deteriorates.
 A more narrow piece of text will yield a more meaningful vector representation than a broader one since there is less noise from multiple topics. However if the LLM only receives a very small piece of information for answer generation, the information might be missing context. Retrieving the broader piece of text that the found information resides in solves the problem.  
-This pattern is an evolution of the [Lexical Graph](/reference/knowledge-graph/lexical-graph)
+This pattern is an evolution of the [Lexical Graph](/reference/knowledge-graph/lexical-graph/)
 
 ## Graph Pattern
 
@@ -36,4 +36,4 @@ When chunking documents, split them into (bigger) chunks (aka Parent Chunks) and
 
 ## GraphRAG Pattern
 
-A Parent-Child Lexical Graph is used in [Parent-Child Retrievers](/reference/graphrag/parent-child-retriever).
+A Parent-Child Lexical Graph is used in [Parent-Child Retrievers](/reference/graphrag/parent-child-retriever/).

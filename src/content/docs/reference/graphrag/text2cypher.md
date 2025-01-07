@@ -7,11 +7,11 @@ tags: ["Intermediate"]
 ## Required Graph Shape
 
 ![Domain Graph](../../../../assets/images/domain-graph.svg)
-[Domain Graph](/reference/knowledge-graph/domain-graph)
+[Domain Graph](/reference/knowledge-graph/domain-graph/)
 
 ## Context
 
-The two related GraphRAG patterns [Cypher Templates](/reference/graphrag/cypher-templates) and [Dynamic Cypher Generation](/reference/graphrag/dynamic-cypher-generation) are both limited by the queries / query snippets that are defined during implementation.
+The two related GraphRAG patterns [Cypher Templates](/reference/graphrag/cypher-templates/) and [Dynamic Cypher Generation](/reference/graphrag/dynamic-cypher-generation/) are both limited by the queries / query snippets that are defined during implementation.
 
 ## Description
 
@@ -35,7 +35,7 @@ The schema can be optionally enhanced by actual data value samples, distribution
 
 ## Further Considerations
 
-If we compare [Cypher Templates](/reference/graphrag/cypher-templates), [Dynamic Cypher Generation](/reference/graphrag/dynamic-cypher-generation), and Text2Cypher, we could use the following analogy (illustrated in the images below)
+If we compare [Cypher Templates](/reference/graphrag/cypher-templates/), [Dynamic Cypher Generation](/reference/graphrag/dynamic-cypher-generation/), and Text2Cypher, we could use the following analogy (illustrated in the images below)
 
 ![](https://dist.neo4j.com/wp-content/uploads/20240917100605/1mLD1YAwWzz14neLgHwi-Kg.png)
 

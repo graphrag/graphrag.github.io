@@ -37,4 +37,4 @@ metadata like a source reference.
 
 ## See also
 
-- [Lexical Graph](/reference/knowledge-graph/lexical-graph)
+- [Lexical Graph](/reference/knowledge-graph/lexical-graph/)

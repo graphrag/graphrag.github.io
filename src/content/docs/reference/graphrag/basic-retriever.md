@@ -14,9 +14,8 @@ tags: ["Basic"]
 
 ## Required Graph Shape
 
-[Lexical Graph](/reference/knowledge-graph/lexical-graph)
-
 ![](../../../../assets/images/knowledge-graph-lexical-graph.svg)
+[Lexical Graph](/reference/knowledge-graph/lexical-graph/)
 
 ## Context 
 

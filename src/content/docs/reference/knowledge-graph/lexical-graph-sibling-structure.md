@@ -6,7 +6,7 @@ description: A Lexical Graph that additionally contains a relationships between 
 ## Context
 
 It is useful to keep track of adjacent chunks for a possible retrieval of them.
-This pattern is an evolution of the [Lexical Graph](/reference/knowledge-graph/lexical-graph)
+This pattern is an evolution of the [Lexical Graph](/reference/knowledge-graph/lexical-graph/)
 
 ## Graph Pattern
 

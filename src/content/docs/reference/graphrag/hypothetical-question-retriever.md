@@ -6,8 +6,8 @@ tags: ["Basic"]
 
 ## Required Graph Shape
 
-[Lexical Graph with Hypothetical Questions](/reference/knowledge-graph/lexical-graph-hypothetical-questions)
 ![Lexical Graph with Hypothetical Questions](../../../../assets/images/knowledge-graph-lexical-graph-hypothetical-questions.svg)
+[Lexical Graph with Hypothetical Questions](/reference/knowledge-graph/lexical-graph-hypothetical-questions/)
 
 ## Context
 
@@ -21,7 +21,7 @@ A vector similarity search is executed on the previously generated questions. `k
 
 ## Usage
 
-This pattern can yield better results in the vector similarity search than a question-to-chunk similarity search as used in e.g. [Basic Retrievers](/reference/graphrag/basic-retriever) or [Parent-Child Retrievers](/reference/graphrag/parent-child-retriever). 
+This pattern can yield better results in the vector similarity search than a question-to-chunk similarity search as used in e.g. [Basic Retrievers](/reference/graphrag/basic-retriever/) or [Parent-Child Retrievers](/reference/graphrag/parent-child-retriever/). 
 However, it also requires more pre-processing effort and cost in LLM calls for the question generation.
 
 ## Required pre-processing

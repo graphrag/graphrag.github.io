@@ -7,7 +7,7 @@ tags: ["Intermediate"]
 ## Required Graph Shape
 
 ![Domain Graph](../../../../assets/images/domain-graph.svg)
-[Domain Graph](/reference/knowledge-graph/domain-graph)
+[Domain Graph](/reference/knowledge-graph/domain-graph/)
 
 ## Context
 

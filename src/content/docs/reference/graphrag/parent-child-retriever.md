@@ -11,7 +11,7 @@ tags: ["Basic"]
 ## Required Graph Shape
 
 ![Parent-Child Lexical Graph](../../../../assets/images/knowledge-graph-lexical-graph-parent-child.svg)
-[Parent-Child Lexical Graph](/reference/knowledge-graph/lexical-graph-parent-child)
+[Parent-Child Lexical Graph](/reference/knowledge-graph/lexical-graph-parent-child/)
 
 ## Context 
 
@@ -29,7 +29,7 @@ Optionally chunks for the same parent are aggregated and their scores are averag
 
 ## Usage
 
-This pattern is a useful evolution of the [Basic Retriever](/reference/graphrag/basic-retriever). 
+This pattern is a useful evolution of the [Basic Retriever](/reference/graphrag/basic-retriever/). 
 It is especially useful when several topics are covered in a chunk which subsequently influence the embedding negatively while smaller chunks will have more meaningful vector representations which can then lead to better similarity search results. 
 With limited additional effort, better results can be obtained.
 
@@ -62,7 +62,7 @@ RETURN parent.title + reduce(r="", c in chunks | r + "\n\n" + c.text) AS text,
 
 ## Similar Patterns
 
-Similar patterns can be implemented on [Lexical Graphs With a Sibling Structure](../knowledge-graph/lexical-graph-sibling-structure) or [Lexical Graphs With a Hierarchical Structure](../knowledge-graph/lexical-graph-hierarchical-structure), where the additional context does not come from retrieving just the parent document but sibling documents or a previously set depth of structures. 
+Similar patterns can be implemented on [Lexical Graphs With a Sibling Structure](/reference/knowledge-graph/lexical-graph-sibling-structure/) or [Lexical Graphs With a Hierarchical Structure](/reference/knowledge-graph/lexical-graph-hierarchical-structure/), where the additional context does not come from retrieving just the parent document but sibling documents or a previously set depth of structures. 
 The Lexical Graph With Sibling Structure is, for example, currently implemented in [Neo4j’s LLM Knowledge Graph Builder](https://neo4j.com/labs/genai-ecosystem/llm-graph-builder/).
 
 Note that there are two kinds of retrievers possible on a Lexical Graph With a Hierarchical Structure:

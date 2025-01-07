@@ -6,7 +6,7 @@ description: A Lexical Graph that additionally contains hypothetical questions t
 ## Context
 
 The vector similarity between a question’s embedding and the text embedding of an appropriate answer might be quite different from each other. If we have question-chunk pairs available, we can execute a vector similarity search on the question embeddings which will probably deliver much better results than a vector similarity search on the chunks.  
-This pattern is an evolution of the [Lexical Graph](/reference/knowledge-graph/lexical-graph)
+This pattern is an evolution of the [Lexical Graph](/reference/knowledge-graph/lexical-graph/)
 
 ## Graph Pattern
 
@@ -37,4 +37,4 @@ Use an LLM to generate hypothetical questions that are answered within the chunk
 
 ## GraphRAG Pattern
 
-A Lexical Graph with Hypothetical Questions is used in [Hypothetical Question Retrievers](/reference/graphrag/hypothetical-question-retriever).
+A Lexical Graph with Hypothetical Questions is used in [Hypothetical Question Retrievers](/reference/graphrag/hypothetical-question-retriever/).
