@@ -1,0 +1,25 @@
+---
+import { Icon as SlIcon } from '@astrojs/starlight/components'
+import GrIcon from './GrIcon.astro'
+
+import { LocalIcons } from './LocalIcons';
+
+const localIconNames = Object.keys(LocalIcons)
+type IconParams = Parameters<typeof SlIcon>
+type SlIconNames = IconParams[0]['name']
+type LocalIconNames = keyof typeof LocalIcons
+export type IconNames = LocalIconNames | SlIconNames
+
+interface Props {
+	name: IconNames;
+	label?: string;
+	color?: string;
+	size?: string;
+	class?: string;
+}
+
+const { name, label, size = '1em', color } = Astro.props;
+const a11yAttrs = label ? ({ 'aria-label': label } as const) : ({ 'aria-hidden': 'true' } as const);
+---
+
+{localIconNames.includes(name) ? (<GrIcon name={name as LocalIconNames} />) : (<SlIcon name={name as SlIconNames}/>)}

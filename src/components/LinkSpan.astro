@@ -1,0 +1,76 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+import NamedIcon, { type IconNames } from './NamedIcon.astro';
+
+
+interface Props extends Omit<HTMLAttributes<'a'>, 'href'> {
+	href: string | URL;
+	icon?: IconNames | undefined;
+	iconPlacement?: 'start' | 'end' | undefined;
+	variant?: 'primary' | 'secondary' | 'minimal';
+}
+
+const {
+	class: className,
+	icon,
+	iconPlacement = 'start',
+	variant = 'primary',
+	...attrs
+} = Astro.props;
+---
+
+<a class:list={['gr-link-span not-content', variant, className]} {...attrs}>
+	
+	{icon && iconPlacement === 'start' && <NamedIcon size="2.0rem" name={icon}/>}
+	<slot />
+	{icon && iconPlacement === 'end' && <NamedIcon size="2.0rem" name={icon}/>}
+</a>
+
+<style>
+	.gr-link-span {
+		align-items: center;
+		border: 1px solid transparent;
+		display: inline-flex;
+		font-size: var(--sl-text-sm);
+		gap: 0.5em;
+		line-height: 1.1875;
+		outline-offset: 0.25rem;
+		padding: 0.4375rem 1.125rem;
+		text-decoration: none;
+	}
+
+	.gr-link-span.primary {
+		background: var(--sl-color-text-accent);
+		border-color: var(--sl-color-text-accent);
+		color: var(--sl-color-black);
+	}
+	.gr-link-span.primary:hover {
+		color: var(--sl-color-black);
+	}
+	.gr-link-span.secondary {
+		border-color: inherit;
+		color: var(--sl-color-white);
+	}
+	.gr-link-span.minimal {
+		color: var(--sl-color-white);
+		padding-inline: 0;
+	}
+
+	.gr-link-span :global(svg) {
+		flex-shrink: 0;
+	}
+
+	@media (min-width: 50rem) {
+		.gr-link-span {
+			font-size: var(--sl-text-base);
+			padding: 0.9375rem 1.25rem;
+		}
+	}
+
+	:global(.sl-markdown-content) .gr-link-span {
+		margin-inline-end: 1rem;
+	}
+	:global(.sl-markdown-content) .gr-link-span:not(:where(p *)) {
+		margin-block: 1rem;
+	}
+</style>
