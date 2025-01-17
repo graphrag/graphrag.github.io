@@ -1,10 +1,9 @@
-import { assert, expect, test } from 'vitest';
+import { expect, test } from 'vitest';
 
 import { Effect, Either } from "effect"
 import { FetchHttpClient } from "@effect/platform"
 
 import { getArxivDetails } from './arxiv'
-import { type ArxivEntry } from './arxiv'
 
 test('arxiv fetch well-known entry', async () => {
 	const arxivid = '2402.07630';

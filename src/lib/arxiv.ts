@@ -1,16 +1,10 @@
 import {
-  HttpClient,
-  HttpClientRequest,
-  HttpClientResponse,
-  HttpClientError
+  HttpClient
 } from "@effect/platform"
-import type { Cause } from "effect"
 import { Effect, Either } from "effect"
 import * as convert from 'xml-js';
 
 import { Schema } from "effect"
-import type { ParseError } from "effect/ParseResult";
-import type { ParseOptions } from "effect/SchemaAST";
 
 import papers from '../data/papers.json';
 

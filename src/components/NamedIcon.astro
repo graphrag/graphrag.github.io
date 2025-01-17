@@ -18,8 +18,8 @@ interface Props {
 	class?: string;
 }
 
-const { name, label, size = '1em', color } = Astro.props;
-const a11yAttrs = label ? ({ 'aria-label': label } as const) : ({ 'aria-hidden': 'true' } as const);
+const { name } = Astro.props;
+// const a11yAttrs = label ? ({ 'aria-label': label } as const) : ({ 'aria-hidden': 'true' } as const);
 ---
 
 {localIconNames.includes(name) ? (<GrIcon name={name as LocalIconNames} />) : (<SlIcon name={name as SlIconNames}/>)}

@@ -15,9 +15,9 @@ Finding the perfect GraphRAG pattern for your application isn’t straightforwar
 ### GraphRAG Patterns
 
 <ul>
-{pages.filter(page => page.slug.indexOf("/graphrag/")!=-1).map(page => (
-        <li key={page.slug}>
-            <a href={"/"+page.slug}>{page.data.title}</a>
+{pages.filter(page => page.id.indexOf("/graphrag/")!=-1).map(page => (
+        <li key={page.id}>
+            <a href={"/"+page.id}>{page.data.title}</a>
         </li>
     ))}
 </ul>
@@ -25,9 +25,9 @@ Finding the perfect GraphRAG pattern for your application isn’t straightforwar
 ### Knowledge Graph Models
 
 <ul>
-{pages.filter(page => page.slug.indexOf("/knowledge-graph/")!=-1).map(page => (
-        <li key={page.slug}>
-            <a href={"/"+page.slug}>{page.data.title}</a>
+{pages.filter(page => page.id.indexOf("/knowledge-graph/")!=-1).map(page => (
+        <li key={page.id}>
+            <a href={"/"+page.id}>{page.data.title}</a>
         </li>
     ))}
 </ul>
