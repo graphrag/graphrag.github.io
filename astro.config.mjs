@@ -116,7 +116,7 @@ export default defineConfig({
     ]
     }],
     components: {
-      Footer: './src/components/GrFooter.astro'
+      PageFrame: './src/components/GrPageFrame.astro',
     }
   }), tailwind({applyBaseStyles: false})]
 });

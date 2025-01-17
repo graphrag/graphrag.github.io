@@ -1,0 +1,59 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import EditLink from '@astrojs/starlight/components/EditLink.astro';
+import LastUpdated from '@astrojs/starlight/components/LastUpdated.astro';
+import Pagination from '@astrojs/starlight/components/Pagination.astro';
+import { Image } from 'astro:assets';
+import neo4jLogoImage from "../assets/images/neo4j-logo-white.png"; 
+---
+<style>
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    color: white;
+    background-color: #05035A;
+  }
+  .credits {
+    ;
+  }
+  .sponsor {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .sponsor p {
+    width: 12em;
+    text-align: right;
+  }
+  .sponsor img {
+    width: 100%;
+    height: auto;
+  }
+  hr {
+    margin-top: 2em;
+  }
+  p.fineprint {
+    margin-top: 2em;
+    font-size: smaller;
+    text-align: left;
+  }
+  p.fineprint, .fineprint a {
+    color: var(--sl-color-text-invert);
+  }
+
+</style>
+
+<div class="footer">
+
+  <div class="credits">
+    <p class="fineprint">
+      <a property="dct:title" rel="cc:attributionURL" href="https://graphrag.com">GraphRAG Pattern Catalog</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://neo4j.com">Neo4j, Inc</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a>
+    </p>
+  </div>
+    <div class="sponsor">
+      <p>Brought to you by...
+        <a href="https://neo4j.com"><Image src={neo4jLogoImage} alt="Neo4j logo" /></a>
+      </p>
+    </div>
+
+</div>
