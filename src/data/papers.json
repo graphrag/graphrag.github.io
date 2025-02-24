@@ -110,5 +110,9 @@
   {
     "arxivid": "2501.00309",
     "github": "https://github.com/Graph-RAG/GraphRAG/"
+  },
+  {
+    "arxivid": "2311.08526",
+    "github": "https://github.com/urchade/GLiNER"
   }
 ]
