@@ -67,7 +67,9 @@ export default defineConfig({
       }
     ],
     customCss: [
-      // Path to your Tailwind base styles:
+      '@fontsource/syne/700.css',
+      '@fontsource/public-sans',
+      '@fontsource/fira-code',
       './src/tailwind.css',
     ],
 

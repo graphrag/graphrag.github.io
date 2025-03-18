@@ -5,3 +5,8 @@
 .sl-markdown-content img {
   background: white;
 }
+
+.site-title {
+  font-family: 'Syne', 'Arial Narrow Bold', sans-serif;
+  font-weight: 800;
+}

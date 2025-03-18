@@ -1,6 +1,8 @@
-/** @type {import('tailwindcss').Config} */
 
+/** @type {import('tailwindcss').Config} */
 import starlightPlugin from '@astrojs/starlight-tailwind';
+
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 // custom color theme
 const accent = { 200: '#8FE3E8', 600: '#0A6190', 900: '#014063', 950: '#002B43' };
@@ -15,10 +17,8 @@ export default {
         accent, gray,
       },
       fontFamily: {
-        // Your preferred text font. Starlight uses a system font stack by default.
-        sans: ['"Atkinson Hyperlegible"'],
-        // Your preferred code font. Starlight uses system monospace fonts by default.
-        mono: ['"IBM Plex Mono"'],
+        sans: ['"Public Sans"', ...defaultTheme.fontFamily.sans],
+        mono: ['"Fira Code"', ...defaultTheme.fontFamily.mono],
       },
     },
   },
