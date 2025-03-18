@@ -130,5 +130,9 @@
   {
     "arxivid": "2502.12110",
     "github": "agiresearch/A-mem"
+  },
+  {
+    "arxivid": "2503.10150",
+    "github": "hhy-huang/HiRAG"
   }
 ]
