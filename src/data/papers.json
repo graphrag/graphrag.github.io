@@ -138,5 +138,9 @@
   {
     "arxivid": "2503.10150",
     "github": "hhy-huang/HiRAG"
+  },
+  {
+    "arxivid": "2504.02670",
+    "github": "spcl/knowledge-graph-of-thoughts"
   }
 ]
