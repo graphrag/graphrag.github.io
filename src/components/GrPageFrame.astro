@@ -20,17 +20,18 @@ const { hasSidebar } = Astro.props;
 		)
 	}
 	<div class="main-frame">
-        <slot />
-    </div>
-    <div class="footer-container">
-        <GrSiteFooter {...Astro.props} />
-    </div>
+		<slot />
+	</div>
+	<div class="footer-container">
+		<GrSiteFooter {...Astro.props} />
+	</div>
+	<div class="bg-red-500 fixed bottom-0">Where am I?</div>
 </div>
 
 <style>
 	.page {
 		flex-direction: column;
-		min-height: 100vh;
+		min-height: calc(100vh - 6rem);
 	}
 
 	.header {
@@ -46,11 +47,12 @@ const { hasSidebar } = Astro.props;
 		background-color: var(--sl-color-bg-nav);
 	}
 
-    .footer-container {
+	.footer-container {
 		z-index: var(--sl-z-index-navbar);
-        background-color: yellow;
-        width: 100%;
-    }
+		background-color: yellow;
+		width: 100%;
+		height: 4rem;
+	}
 
 	:global([data-has-sidebar]) .header {
 		padding-inline-end: calc(var(--sl-nav-gap) + var(--sl-nav-pad-x) + var(--sl-menu-button-size));
@@ -59,7 +61,7 @@ const { hasSidebar } = Astro.props;
 	.sidebar-pane {
 		visibility: var(--sl-sidebar-visibility, hidden);
 		position: fixed;
-        bottom: 4rem;
+		bottom: 20rem;
 		z-index: var(--sl-z-index-menu);
 		inset-block: var(--sl-nav-height) 0;
 		inset-inline-start: 0;
@@ -90,6 +92,7 @@ const { hasSidebar } = Astro.props;
 	.main-frame {
 		padding-top: calc(var(--sl-nav-height) + var(--sl-mobile-toc-height));
 		padding-inline-start: var(--sl-content-inline-start);
+		min-height: 100vh;
 	}
 
 	@media (min-width: 50rem) {
