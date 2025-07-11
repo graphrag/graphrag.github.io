@@ -61,7 +61,7 @@ There are several variations in which you could use the Lexical Graph with extra
 
 - [From Local to Global:A Graph RAG Approach to Query-Focused Summarization](https://arxiv.org/pdf/2404.16130) (April 2024)
 - [Implementing 'From Local to Global' GraphRAG with Neo4j and LangChain: Constructing the Graph](https://neo4j.com/developer-blog/global-graphrag-neo4j-langchain/) (July 2024)
-- [Integrating Microsoft GraphRAG into Neo4j](https://towardsdatascience.com/integrating-microsoft-graphrag-into-neo4j-e0d4fa00714c) (July 2024)
+- [Integrating Microsoft GraphRAG into Neo4j](https://medium.com/data-science/integrating-microsoft-graphrag-into-neo4j-e0d4fa00714c) (July 2024)
 - [Introducing DRIFT Search: Combining global and local search methods to improve quality and efficiency - Microsoft Research](https://www.microsoft.com/en-us/research/blog/introducing-drift-search-combining-global-and-local-search-methods-to-improve-quality-and-efficiency/)
 
 ## Existing Implementations

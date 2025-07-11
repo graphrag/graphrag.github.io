@@ -113,7 +113,7 @@ from [Benchmarking Using the Neo4j Text2Cypher (2024) Dataset](https://neo4j.com
 
 ## Existing Implementations
 
-- [Integrating Neo4j into the LangChain ecosystem](https://towardsdatascience.com/integrating-neo4j-into-the-langchain-ecosystem-df0e988344d2) (Tomaz Bratanic, April 2024)
+- [Integrating Neo4j into the LangChain ecosystem](https://medium.com/data-science/integrating-neo4j-into-the-langchain-ecosystem-df0e988344d2) (Tomaz Bratanic, April 2024)
 - [LangChain Cypher Search: Tips & Tricks](https://neo4j.com/developer-blog/langchain-cypher-search-tips-tricks/) (Tomaz Bratanic, June 2024)
 
 - [Langchain: GraphCypherQAChain](https://python.langchain.com/v0.2/docs/integrations/providers/neo4j/#graphcypherqachain)
