@@ -31,7 +31,7 @@ Several domain-specific Cypher queries (containing parameters) and a description
 
 ## Further reading
 
-- [Enhancing Interaction between Language Models and Graph Databases via a Semantic Layer](https://towardsdatascience.com/enhancing-interaction-between-language-models-and-graph-databases-via-a-semantic-layer-0a78ad3eba49) (January 2024)
+- [Enhancing Interaction between Language Models and Graph Databases via a Semantic Layer](https://medium.com/data-science/enhancing-interaction-between-language-models-and-graph-databases-via-a-semantic-layer-0a78ad3eba49) (January 2024)
 
 ## Existing Implementations
 
