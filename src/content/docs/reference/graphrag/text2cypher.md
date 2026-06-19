@@ -98,7 +98,7 @@ from [Benchmarking Using the Neo4j Text2Cypher (2024) Dataset](https://neo4j.com
 
 ### Fine Tuning
 
-- (Huggingface: text2cypher training datasets and finetuned models)[https://huggingface.co/neo4j]
+- [Huggingface: text2cypher training datasets and finetuned models](https://huggingface.co/neo4j)
 - [Introducing the Fine-Tuned Neo4j Text2Cypher (2024) Model - Graph Database & Analytics](https://neo4j.com/developer-blog/fine-tuned-text2cypher-2024-model/)
 
 ### Few Shot Examples
