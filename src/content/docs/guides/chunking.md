@@ -5,7 +5,7 @@ description: Guide on Document Chunking
 
 # Text Chunking
 
-Text documents can be short (a social sedia post or comment) or very long (a book).
+Text documents can be short (a social media post or comment) or very long (a book).
 
 As longer text documents cover many different topics in sequential order (sometimes with references), it is desireable to structure them into smaller pieces that are semantically coherent and focus on one topic.
 
